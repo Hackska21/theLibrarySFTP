@@ -47,3 +47,15 @@ pip install py7zr
 After running the script, open Steam in Desktop mode or go back to Game mode, then run Emulation Station. You will now see "The Library" in the main menu.<br />
 <br />
 NOTE: Make sure to change the "XXXXXX" with the correct URLs and strings in the python script. Running the script as is will not succeed. Due to legal concerns, I chose not to share the URLs I used to download roms. It's fairly easy to find the URLs on Google. Just make sure it's safe.
+
+
+### Colections Json
+```
+{
+    "ps2": {
+        "room_path": "",  // path to roms on remote server
+        "target_key": "ps2", // folder on steam deck where to save the file
+        "use_dirs": false // if the platform uses folders instead of files for games
+    }
+}
+```
